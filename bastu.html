@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>¨
+<head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,50 +9,77 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- Top Navigation Menu -->
+        <!-- Top Navigation Menu -->
 <div class="topnav">
-    <a href="index.html" class="active">Välkommen till Tennis Klubben!</a>
+ 
+    <a href="index.html" class="active">Välkommen till TennisKlubben!</a>
     <div id="myLinks">
-      <a href="Bokning.html">Bokning</a>
-      <a href="bastu.html">Bastu/omklädningsrum</a>
+      <a href="Bokning.html">Boka</a>
       <a href="registrering.html">Registrera dig</a>
-      <a href="OmOss.html">Om oss</a>
+      <a href="omoss2.html">Om oss</a>
     </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-  </div>
-
-  
-
-<!--Boxen med login-->
-  <div class="bg-img">
-   
-
-  <!--bild blur del -->
-  <div class="bg-text">
-    <h2>välj mellan endast kvinnor/män separat eller mixat </h2>
-    <h1 style="font-size:50px">Bastu och omklädningsrum</h1>
-    <p>Linköping sportcenter</p>
-  </div>
-
-  
-  <div style="padding-left:16px">
-    
-  </div>
-  
+</div>
 
 
-  <script src="script.js"></script>
+
+  <div class="container" id="bastubok">
+        <div class="container-time">
+             <h2 class="heading">Boka Bastu</h2>
+             <h3 class="heading-days">Måndag-Fredag</h3>
+             <p>7:00-23:00</p>
+
+             <h4 class="heading-days">Lördag-Söndag</h3>
+             <p>8:00-21:00</p>
+
+        </div>
+
+        
+        <div class="container-form">
+            <form action="#">
+               <h2 class="heading heading-yellow">Reservation</h2>
+
+               <div class="form-field">
+                <p>Ditt namn</p>
+                <input type="text" placeholder="Ditt namn" required>
+               </div>
+
+               <div class="form-field">
+                <p>Din email</p>
+                <input type="text" placeholder="Din email" required>
+               </div>
+
+               <div class="form-field">
+                <p>Datum</p>
+                <input type="date" required>
+               </div>
+
+               <div class="form-field">
+                <p>Tid</p>
+                <input type="time" required>
+               </div>
+
+               <br>
+<br>
+            <div class="mankvinna">
+                <p>Välj preferens</p>
+            <input type="checkbox" id="kvinna" name="kvinna" value="Kvinna">
+            <label for="vehicle1"> Kvinnor</label><br>
+            <input type="checkbox" id="Man" name="Man" value="Man">
+             <label for="vehicle2"> Män</label><br>
+            </div>
+
+           
+            </form>
+        </div>
+    </div>
+ 
+
+            </form>
+        </div>
+    </div>
+</table>
 </body>
-
-<footer>
-    Kontakata oss
-    <br>
-    email: tennis@boll.nu
-    <br>
-    Ring: 6006135
-    <br>
-   Adress: Tennislandet 47, 896 89 Lekland
-   </footer>
 </html>
