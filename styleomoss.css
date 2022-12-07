@@ -1,21 +1,5 @@
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image:url("https://cdn.pixabay.com/photo/2016/01/26/15/01/tennis-ball-1162631_1280.jpg");
-      color: #ffffff;
-  }
 
-
-  
-  html {
-    font-family: "Lucida Sans", sans-serif;
-  }
-  
-  .header {
-    background-color: rgb(9, 101, 68);
-    color: #535353;
-    padding: 15px;
-  }
   
   .menu ul {
     list-style-type: none;
@@ -41,7 +25,7 @@ body {
     color: #262626;
     text-align: center;
     font-size: 14px;
-    box-shadow: 0 1px 3px rgba(228, 228, 228, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(5, 183, 141, 0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   
   .footer {
@@ -53,15 +37,6 @@ body {
   }
   
 
-
-
-
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 header {
     position: relative;
     display: flex;
@@ -149,13 +124,5 @@ header {
     margin-top: 10%;
 margin-left: 20%;
 margin-right: 20%;
-
-}
-
-footer{
-    
-    margin-top: 95%;
-    position: fixed;
-
 
 }
